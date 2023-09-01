@@ -1,0 +1,46 @@
+.box{
+    width: 340px;
+    height: 200px;
+    background-color: rgb(228, 224, 231);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.butt2{
+    border-radius: 5px;
+    width: 170px;
+    height: 30px;
+    background-color: rgba(2, 98, 128, 0.562);
+    border:  rgba(34, 184, 230, 0.781); 
+    color:white; 
+    margin-top: 20px;
+}
+.butt2:hover{
+    background-color: rgba(4, 47, 59, 0.562);
+}
+
+input{
+    background-color: white;
+    width: 300px;
+    height: 20px;
+    border: 1px white;
+
+}
+ 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input:focus{
+   border: 1px solid rgba(2, 98, 128, 0.562) ; 
+    outline: none;
+}
+
+.box2{
+
+}
